@@ -35,6 +35,51 @@ body{
             padding:0px!important;
 
         }
+        div.top-header{
+        background-image: url(/images/desktop/1-copy-2.png);
+        height:171px;
+        background-repeat: no-repeat;
+        opacity: 0.8;
+        background-size:100% 100%;
+    
+    }
+    .top-header-logo{
+        background-image: url(/images/desktop/ILLINOIS.png);
+        width:223px;
+        height:26px;
+        background-repeat: no-repeat;
+        position:relative;
+        top:40px;
+        left:10%;
+    }
+    .top-header-info{
+        background-image: url(/images/desktop/Illinois-%7C-AAO-Logo-copy.png);
+        height:100px;
+        background-repeat: no-repeat;
+        width:225px;
+        height: 49px!important;
+        margin-right: 10%;
+    }
+        
+    .footer{
+        padding:0px;
+        margin:0px;
+        position:absolute;
+        width:100%;
+        bottom:0px;
+    }
+    .footer > img{
+        width: 100%;
+    }
+    .footer > .footer-text{
+       width:194px;
+       position: absolute;
+       top: 0;
+       left: 0;
+       bottom: 0;
+       right: 0;
+       margin: auto;
+    }
 
     }
 
@@ -79,54 +124,6 @@ body{
         margin-right: 10%;
     }
 
-    .left-content{
-        position: relative;
-        top:-5px;
-    }
-    .left-content-first-image > img{
-        position:absolute;
-        z-index:10;
-        margin-left:82%!important;
-    }
-    .left-content-second-image > img{
-
-    }
-    .small-logo{@media only screen and (min-width: 480px){
-
-    }
-        position:relative;
-        left:100%;
-        top:-70px;
-    }
-    .page-title{
-        width:223px!important;
-        margin-left: 10%;
-        margin-top:-21%;
-        position:relative!important;
-    }
-    .call-to-action{
-        width:235px!important;
-        margin-left:60%;
-        position:relative!imporant;
-        margin-top:-1%!important;
-    }
-    .find-ortho{
-        margin-left:57%;
-        margin-top:10px;
-    }
-    .find-ortho-button{
-        margin-top: 10px;
-    }
-    .find-ortho-input{
-        border:2px solid white!important;
-        background-color: #ccc!important;
-
-    }
-    .page-logo{
-        width:225px!important;
-        margin-left:40%;
-        margin-top:-21%;
-    }
     .footer{
         padding:0px;
         margin:0px;
@@ -138,10 +135,13 @@ body{
         width: 100%;
     }
     .footer > .footer-text{
-        width:194px;
-        position:absolute;
-        bottom:10px;
-        margin-left:43%;
+       width:194px;
+       position: absolute;
+       top: 0;
+       left: 0;
+       bottom: 0;
+       right: 0;
+       margin: auto;
     }
 }
 

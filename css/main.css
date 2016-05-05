@@ -15,17 +15,75 @@ body{
     /*==========  Mobile First Method  ==========*/
 
     /* Custom, iPhone Retina */ 
-    @media only screen and (min-width : 320px) {
-        
-    }
+ 
 
     /* Extra Small Devices, Phones */ 
-    @media only screen and (min-width : 480px) {
+    @media only screen and (min-width:320px) and (max-width: 480px) {
+         html { overflow: hidden; }
+        .jumbotron{
+            background-image: url(/images/mobile/Background-Image.png);
+            height:389px;
+            background-size: 100% 100%;
+            border-bottom-right-radius:80px!important;
+            padding:0px!important;
+
+        }
+        div.top-header{
+            background-image: url(/images/mobile/Top-header.png);
+            height:171px;
+            background-repeat: no-repeat;
+            opacity: 0.8;
+            background-size:100% 100%;
+
+        }
+      .top-header-logo{
+        background-image: url(/images/mobile/ILLINOIS.png);
+        width:223px;
+        height:26px;
+        background-repeat: no-repeat;
+        position:relative;
+        top:40px;
+        left:10%;
+    }
+       .top-header-info{
+        background-image: url(/images/mobile/Illinois-%7C-AAO-Logo-copy.png);
+        height:37px!important;
+        background-repeat: no-repeat;
+        width:166px;   
+        position:absolute;
+        top:11%;
+        left:10%;
+  
+    }
+    .footer{
+       background-image: url(/images/desktop/Shape-5.png);
+        background-repeat: no-repeat;
+        background-size:100% 100%;
+        padding:0px;
+        margin:0px;
+        position:absolute;
+        width:100%;
+        height:35px;
+        bottom:0px;
+    }
+
+    .footer > .footer-text{
+       width:194px;
+       position: absolute;
+       top: 0;
+       left: 0;
+       bottom: 0;
+       right: 0;
+       margin: auto;
+    }
 
     }
 
+
+
+
     /* Small Devices, Tablets */
-    @media only screen and (min-width : 768px) {
+    @media only screen  and (min-width: 468px) and (max-width:768px){
          html { overflow: hidden; }
         .jumbotron{
             background-image: url(/images/tablet/Background-Image.png);
@@ -62,10 +120,14 @@ body{
     }
         
     .footer{
+        background-image: url(/images/desktop/Shape-5.png);
+        background-repeat: no-repeat;
+        background-size:100% 100%;
         padding:0px;
         margin:0px;
         position:absolute;
         width:100%;
+        height:35px;
         bottom:0px;
     }
     .footer > img{
@@ -83,8 +145,12 @@ body{
 
     }
 
+
+
+
+
   
-@media only screen and (min-width: 1200px){
+@media only screen and (min-width:768px) and (max-width: 1400px) {
 
      html { overflow: hidden; }
     .jumbotron{
@@ -125,10 +191,14 @@ body{
     }
 
     .footer{
+        background-image: url(/images/desktop/Shape-5.png);
+        background-repeat: no-repeat;
+        background-size:100% 100%;
         padding:0px;
         margin:0px;
         position:absolute;
         width:100%;
+        height:35px;
         bottom:0px;
     }
     .footer > img{

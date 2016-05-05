@@ -55,6 +55,9 @@ body{
         left:10%;
   
     }
+         .search-wrapper{
+            display:none;
+        }
     .footer{
        background-image: url(/images/desktop/Shape-5.png);
         background-repeat: no-repeat;
@@ -118,6 +121,9 @@ body{
         height: 49px!important;
         margin-right: 10%;
     }
+        .search-wrapper{
+            display:none;
+        }
         
     .footer{
         background-image: url(/images/desktop/Shape-5.png);
@@ -188,6 +194,28 @@ body{
         width:225px;
         height: 49px!important;
         margin-right: 10%;
+    }
+    .search-wrapper{
+        float:right;
+        margin-right: 15%;
+        text-align:center;
+    }
+    .search-wrapper > img{
+        
+        margin-bottom: 5%;
+    }
+    .search-wrapper > input{
+        border: 2px solid white;
+        background-color: #8499BE;
+        text-align:center;
+        color: #fff;
+    }
+    .search-wrapper > input::-webkit-input-placeholder {
+        color: #ccc;
+    }
+    .search-wrapper > button{
+        margin-top:5%;
+        
     }
 
     .footer{

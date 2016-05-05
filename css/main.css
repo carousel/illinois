@@ -236,7 +236,7 @@ body{
         color:blue;
     }
     .left-content-wrapper{
-        margin-left:20%;
+        margin-left:40%;
         width:240px;
         height:104px;
         background-color:#009FD0;
@@ -245,11 +245,13 @@ body{
         margin-left:12px;
     }
     .right-content-header{
+        padding-left:40px;
         color:#009FD0;
         font-weight: bold!important;
         margin-bottom:1%!important;
     }
     .right-content-text{
+        padding-left:40px;
         font-size:1.1em;
         color:#000;
         width:582px;

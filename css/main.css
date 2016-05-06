@@ -93,7 +93,11 @@ body{
 
     /* Small Devices, Tablets */
     @media only screen  and (min-width: 468px) and (max-width:768px){
-         html { overflow: hidden; }
+     
+         html { overflow-x: hidden; }
+        body {
+
+        }
         .jumbotron{
             background-image: url(/images/tablet/Background-Image.png);
             height:389px;
@@ -138,13 +142,11 @@ body{
         background-image: url(/images/tablet/Shape-2.png);
         background-repeat: no-repeat;
         background-size:100% 100%;
-        width: 768px;
+        width: 100%;
         height:187px;
         margin:0px;
         text-align:center;
         padding:10px;
-  
-     
     
     }
     .tablet-search-form-group{
@@ -161,6 +163,37 @@ body{
         width: 300px!important;
         margin-top:10px;
     }
+    .tablet-content{
+        width: 100%;
+       padding:10px;
+    }
+        .tablet-content > p.tablet-content-text{
+            width: 100%;
+        }
+    .tablet-content > p.lead{
+        font-size:1.9em;
+        color:#009FD0;
+        font-weight: bold!important;
+        width:100%;
+        margin-top:20px;
+        margin-bottom: 0px;
+    }
+        .tablet-content-banner{
+            padding-left: 30px;
+            padding-right: 30px;
+            padding-bottom: 20px;
+            padding-top: 20px;
+        }
+    .tablet-content-banner-background{
+        
+        width:100%;
+        height:198px;
+        background-color:#009FD0;   
+
+    }
+        .tablet-content-info{
+            margin-left:14%;
+        }
 
     .footer{
         background-image: url(/images/desktop/Shape-5.png);
@@ -168,22 +201,18 @@ body{
         background-size:100% 100%;
         padding:0px;
         margin:0px;
-        position:absolute;
+    
         width:100%;
         height:35px;
         bottom:0px;
+        text-align: center;
     }
     .footer > img{
         width: 100%;
     }
     .footer > .footer-text{
        width:194px;
-       position: absolute;
-       top: 0;
-       left: 0;
-       bottom: 0;
-       right: 0;
-       margin: auto;
+       margin-top: 10px;
     }
 
     }
@@ -281,6 +310,9 @@ body{
      .tablet-search-wrapper{
         display:none;
     
+    }
+    .tablet-content{
+        display:none;
     }
 
     .footer{
